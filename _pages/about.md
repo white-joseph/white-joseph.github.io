@@ -1,15 +1,15 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Welcome"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+I am Business Economics and Mathematics student passionate about using data and economic reasoning to solve real-world problems. My research interests are in industrial organization, antitrust, and financial economics.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+My coursework focuses on both theoretical and empirical methods, and some examples include optimization, applied linear algebra, international trade, and financial economics in R. I am also writing a senior thesis that applies economic theory and empirical methods to a policy-relevant topic, using tools like R and Python. Through this work, I’m building advanced skills in statistical modeling, simulations, and economic data analysis.
 
 A data-driven personal website
 ======
