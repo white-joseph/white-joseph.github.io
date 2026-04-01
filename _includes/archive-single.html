@@ -23,10 +23,11 @@
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
-      {% if post.coauthors %}
-        <span style="font-weight: normal; font-size: 0.85em;"> (with {{ post.coauthors }})</span>
-      {% endif %}
     </h2>
+
+    {% if post.coauthors %}
+      <p style="font-size: 0.85em; margin-top: -0.5em;">(with {{ post.coauthors }})</p>
+    {% endif %}
 
     {% if post.excerpt %}
       <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
