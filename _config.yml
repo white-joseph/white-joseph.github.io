@@ -8,7 +8,7 @@
  
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default"
+site_theme               : "air"
 title                    : "Joseph White"
 title_separator          : "-"
 name                     : &name "Joseph White"
@@ -22,7 +22,7 @@ author:
   # Biographic information
   avatar           : "profile.jpg"
   name             : "Joseph White"
-  bio              : "Masters student at Miami University"
+  bio              : "B.S. Business Economics & Mathematics @ Miami University."
   location         : "Worthington, OH"
   employer         : "Miami University"
   uri              :
@@ -82,7 +82,7 @@ publication_category:
   manuscripts:
     title: 'Working Papers'
   conferences:
-    title: 'Conference Papers'
+    title: 'Works in Progress'
  
 # Site Settings
 teaser                   :

@@ -1,8 +1,12 @@
-# Header navigation links
- 
 main:
   - title: "Research"
     url: /publications/
+ 
+  - title: "Presentations"
+    url: /presentations/
+ 
+  - title: "Coursework"
+    url: /coursework/
  
   - title: "CV"
     url: /files/cv_joewhite2.pdf
