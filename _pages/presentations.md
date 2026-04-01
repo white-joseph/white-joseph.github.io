@@ -9,3 +9,4 @@ author_profile: true
 
 **Labor Input Responses to Ownership Changes: Evidence from U.S. Nursing Homes**
 Economics Honors Research Conference, Miami University — March 2026
+[[Slides]](/files/presentation.pdf)
