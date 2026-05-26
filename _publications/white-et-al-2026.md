@@ -1,5 +1,5 @@
 ---
-title: "Labor Input Responses to Ownership Changes: Evidence from U.S. Nursing Homes"
+title: "Inside the Frontier: Ownership Change and Organizational Inertia in Nursing Home Production"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-nursing-home-consolidation
