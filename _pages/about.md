@@ -7,6 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-I am a Business Economics and Mathematics student in the Farmer School of Business at Miami University. I will receive my Bachelor of Science in the Spring of 2026, and in Fall 2026 I will begin my Master of Arts in Economics at Miami University.
+I am a master's student in economics at Miami University in Oxford, Ohio, where I also received my undergraduate degree in business economics with a concentration in mathematics. I am currently working as a portfolio management intern at Nationwide Insurance in Columbus, Ohio.
 
 My research interests are broadly in Industrial Organization, Applied Microeconomics, and Health Economics.
