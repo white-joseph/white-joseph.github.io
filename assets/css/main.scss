@@ -41,3 +41,79 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* ==========================================================================
+   Joseph White custom homepage
+   ========================================================================== */
+
+.jw-home {
+  max-width: 980px;
+  margin: 0 auto;
+  padding-top: 2.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.jw-home-name {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0 0 3rem 0;
+}
+
+.jw-home-grid {
+  display: grid;
+  grid-template-columns: 430px 1fr;
+  column-gap: 2.5rem;
+  align-items: start;
+}
+
+.jw-home-photo {
+  display: block !important;
+  width: 430px !important;
+  height: 430px !important;
+  max-width: 430px !important;
+  object-fit: cover !important;
+  border-radius: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.jw-home-text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1rem;
+  line-height: 1.25;
+  color: #111111;
+}
+
+.jw-home-text p {
+  margin-top: 0;
+  margin-bottom: 1.7rem;
+}
+
+.jw-home-text a {
+  color: #111111;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 900px) {
+  .jw-home-grid {
+    display: block;
+  }
+
+  .jw-home-photo {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 430px !important;
+    margin: 0 auto 1.5rem auto !important;
+  }
+
+  .jw-home-text {
+    max-width: 620px;
+    margin: 0 auto;
+  }
+}

@@ -1,23 +1,24 @@
 ---
 permalink: /
 title: ""
+classes: wide
 author_profile: false
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-<div class="home-minimal">
+<div class="jw-home">
 
-  <h1 class="home-minimal__name">Joseph White</h1>
+  <h1 class="jw-home-name">Joseph White</h1>
 
-  <div class="home-minimal__grid">
+  <div class="jw-home-grid">
 
-    <div class="home-minimal__photo-wrap">
-      <img src="/images/profile.jpg" alt="Joseph White" class="home-minimal__photo">
+    <div>
+      <img src="/images/profile.jpg" alt="Joseph White" class="jw-home-photo">
     </div>
 
-    <div class="home-minimal__bio">
+    <div class="jw-home-text">
 
       <p>
         I am a master's student in economics at Miami University in Oxford, Ohio, where I also received my undergraduate degree in business economics with a concentration in mathematics. I am currently working as a portfolio management intern at Nationwide Insurance in Columbus, Ohio.
