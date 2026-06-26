@@ -47,7 +47,7 @@
    ========================================================================== */
 
 .jw-home {
-  max-width: 980px;
+  max-width: 1120px;
   margin: 0 auto;
   padding-top: 2.75rem;
   padding-left: 1rem;
@@ -65,8 +65,8 @@
 
 .jw-home-grid {
   display: grid;
-  grid-template-columns: 430px 1fr;
-  column-gap: 2.5rem;
+  grid-template-columns: 430px minmax(460px, 1fr);
+  column-gap: 3rem;
   align-items: start;
 }
 
@@ -88,6 +88,7 @@
   font-size: 1rem;
   line-height: 1.25;
   color: #111111;
+  max-width: 560px;
 }
 
 .jw-home-text p {
