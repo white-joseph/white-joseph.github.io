@@ -2,7 +2,7 @@
 layout: single
 title: ""
 permalink: /presentations/
-author_profile: true
+author_profile: false
 ---
 
 ## Conference Presentations

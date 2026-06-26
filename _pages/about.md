@@ -1,12 +1,38 @@
 ---
 permalink: /
 title: ""
-author_profile: true
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I am a master's student in economics at Miami University in Oxford, Ohio, where I also received my undergraduate degree in business economics with a concentration in mathematics. I am currently working as a portfolio management intern at Nationwide Insurance in Columbus, Ohio.
+<div class="home-minimal">
 
-My research interests are broadly in Industrial Organization, Applied Microeconomics, and Health Economics.
+  <h1 class="home-minimal__name">Joseph White</h1>
+
+  <div class="home-minimal__grid">
+
+    <div class="home-minimal__photo-wrap">
+      <img src="/images/profile.jpg" alt="Joseph White" class="home-minimal__photo">
+    </div>
+
+    <div class="home-minimal__bio">
+
+      <p>
+        I am a master's student in economics at Miami University in Oxford, Ohio, where I also received my undergraduate degree in business economics with a concentration in mathematics. I am currently working as a portfolio management intern at Nationwide Insurance in Columbus, Ohio.
+      </p>
+
+      <p>
+        My research interests are broadly in industrial organization, applied microeconomics, and health economics.
+      </p>
+
+      <p>
+        <strong>Contact:</strong> <a href="mailto:whitejf@miamioh.edu">whitejf@miamioh.edu</a>
+      </p>
+
+    </div>
+
+  </div>
+
+</div>

@@ -399,3 +399,78 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/* ==========================================================================
+   Minimal homepage layout
+   ========================================================================== */
+
+.home-minimal {
+  max-width: 980px;
+  margin: 0 auto;
+  padding-top: 2.5rem;
+}
+
+.home-minimal__name {
+  margin: 0 0 3rem;
+  text-align: center;
+  font-family: $serif;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.home-minimal__grid {
+  display: grid;
+  grid-template-columns: 430px 1fr;
+  gap: 2.25rem;
+  align-items: start;
+}
+
+.home-minimal__photo {
+  display: block;
+  width: 100%;
+  max-width: 430px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.home-minimal__bio {
+  font-family: $serif;
+  font-size: 1rem;
+  line-height: 1.25;
+  color: var(--global-text-color);
+}
+
+.home-minimal__bio p {
+  margin-top: 0;
+  margin-bottom: 1.6rem;
+}
+
+.home-minimal__bio a {
+  color: var(--global-text-color);
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 900px) {
+  .home-minimal {
+    padding-top: 1.5rem;
+  }
+
+  .home-minimal__grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .home-minimal__photo {
+    max-width: 420px;
+    margin: 0 auto;
+  }
+
+  .home-minimal__bio {
+    max-width: 620px;
+    margin: 0 auto;
+  }
+}

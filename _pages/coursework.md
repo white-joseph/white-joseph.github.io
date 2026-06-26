@@ -2,7 +2,7 @@
 layout: single
 title: ""
 permalink: /coursework/
-author_profile: true
+author_profile: false
 ---
 
 Below is a selection of advanced coursework in mathematics, economics, and statistics that has shaped my research training.
