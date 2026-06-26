@@ -6,7 +6,7 @@ title: "Research"
 
 permalink: /research/
 
-author\_profile: true
+author\_profile: false
 
 ---
 
