@@ -45,7 +45,7 @@
    ========================================================================== */
 
 .jw-home {
-  max-width: 1120px;
+  max-width: 1240px;
   margin: 0 auto;
   padding-top: 2.75rem;
   padding-left: 1rem;
@@ -63,16 +63,16 @@
 
 .jw-home-grid {
   display: grid;
-  grid-template-columns: 430px minmax(460px, 1fr);
-  column-gap: 3rem;
+  grid-template-columns: 480px minmax(460px, 1fr);
+  column-gap: 3.5rem;
   align-items: start;
 }
 
 .jw-home-photo {
   display: block !important;
-  width: 430px !important;
-  height: 430px !important;
-  max-width: 430px !important;
+  width: 480px !important;
+  height: 620px !important;
+  max-width: 480px !important;
   object-fit: cover !important;
   border-radius: 0 !important;
   border: none !important;
@@ -86,7 +86,7 @@
   font-size: 1rem;
   line-height: 1.25;
   color: #111111;
-  max-width: 560px;
+  max-width: 600px;
 }
 
 .jw-home-text p {
@@ -99,7 +99,7 @@
   text-decoration: underline;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 960px) {
   .jw-home-grid {
     display: block;
   }
@@ -107,7 +107,8 @@
   .jw-home-photo {
     width: 100% !important;
     height: auto !important;
-    max-width: 430px !important;
+    max-width: 480px !important;
+    aspect-ratio: 480 / 620 !important;
     margin: 0 auto 1.5rem auto !important;
   }
 
