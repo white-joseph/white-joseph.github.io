@@ -1,0 +1,18 @@
+---
+layout: single
+---
+
+{% include base_path %}
+
+{% if page.excerpt %}
+  <h2 class="publication__section-title">Abstract</h2>
+  <div class="publication__abstract">{{ page.excerpt | markdownify }}</div>
+{% endif %}
+
+{{ content }}
+
+{% if page.paperurl %}
+  <p class="publication__links">
+    <a href="{{ page.paperurl }}" target="_blank" rel="noopener">Download PDF</a>
+  </p>
+{% endif %}

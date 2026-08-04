@@ -1,0 +1,12 @@
+# Local development overrides.
+#
+# _config.yml sets an absolute `url`, which _includes/base_path turns into
+# absolute links for every stylesheet, script and image. That is correct for the
+# deployed site, but it means `jekyll serve` renders a local page that loads its
+# assets from the live site, so local edits appear to do nothing.
+#
+# Serve with:
+#   bundle exec jekyll serve --config _config.yml,_config.dev.yml
+#
+# GitHub Pages only reads _config.yml, so this file never affects production.
+url: ""

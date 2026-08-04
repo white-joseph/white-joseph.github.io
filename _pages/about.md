@@ -1,6 +1,5 @@
 ---
 permalink: /
-title: ""
 classes: wide
 author_profile: false
 redirect_from: 

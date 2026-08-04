@@ -16,21 +16,25 @@
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 
     <h2 class="archive__item-title" itemprop="headline">
-      {% if post.paperurl %}
-        <a href="{{ post.paperurl }}" target="_blank">{{ title }}</a>
-      {% elsif post.link %}
-        <a href="{{ post.link }}" target="_blank">{{ title }}</a>
+      {% if post.link %}
+        <a href="{{ post.link }}" target="_blank" rel="noopener">{{ title }}</a>
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
 
     {% if post.coauthors %}
-      <p style="font-size: 0.85em; margin-top: -0.5em;">(with {{ post.coauthors }})</p>
+      <p class="archive__item-coauthors">(with {{ post.coauthors }})</p>
     {% endif %}
 
     {% if post.excerpt %}
-      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+      <div class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</div>
+    {% endif %}
+
+    {% if post.paperurl %}
+      <p class="archive__item-links">
+        <a href="{{ post.paperurl }}" target="_blank" rel="noopener">PDF</a>
+      </p>
     {% endif %}
 
   </article>

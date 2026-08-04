@@ -44,7 +44,8 @@ words_per_minute         : 160
 future                   : true
 read_more                : "disabled"
 atom_feed:
-  hide                   : false
+  # there is no blog on this site, so don't advertise an empty feed
+  hide                   : true
   path                   :
  
 # SEO Related
@@ -60,8 +61,8 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :
-og_description           :
+og_image                 : "profile.jpg"
+og_description           : *description
 social:
   type                   :
   name                   :
@@ -155,7 +156,7 @@ defaults:
       path: ""
       type: publications
     values:
-      layout: single
+      layout: publication
       author_profile: false
  
 # Sass/SCSS

@@ -1,8 +1,11 @@
 {% include base_path %}
 
-{% if site.author.github or site.author.linkedin %}
+{% if site.author.email or site.author.github or site.author.linkedin %}
 <div class="page__footer-follow">
   <ul class="social-icons">
+    {% if site.author.email %}
+      <li><a href="mailto:{{ site.author.email }}"><i class="fas fa-envelope" aria-hidden="true"></i> Email</a></li>
+    {% endif %}
     {% if site.author.github %}
       <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
     {% endif %}
